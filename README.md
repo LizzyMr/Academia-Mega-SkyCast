@@ -15,6 +15,9 @@
    - Buenas prácticas y principios SOLID
    - Pruebas unitarias con xUnit
 
+## Repositorio: SkyCast
+Visita mi Repositorio SkyCast en [SkyCast](https://github.com/LizzyMr/Academia-Mega-SkyCast)
+
 ## Ejercicios Realizados
 
 ### Ejercicio 26: SkyCast - Release
