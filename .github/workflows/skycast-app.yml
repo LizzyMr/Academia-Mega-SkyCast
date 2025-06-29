@@ -45,8 +45,8 @@ jobs:
               run: |
                 dotnet restore
                 # Inyectar la API Key
-                echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > SkyCast/appsettings.Production.json
-                dotnet publish SkyCast/SkyCast.csproj -c Release -o publish -p:StaticWebAssetBasePath=dotmetweathermega
+                echo "{\"OpenWeather\":{\"Key\":\"${{ secrets.OPENWEATHER_KEY }}\"}}" > Skycast/SkyCast/appsettings.Production.json
+                dotnet publish Skycast/SkyCast/SkyCast.csproj -c Release -o publish -p:StaticWebAssetBasePath=dotmetweathermega
 
             - name: Listar salida
               run: |
