@@ -6,7 +6,12 @@ on:
 
 env:
   DOTNET_VERSION: '8.0.x'
-  NODE_VERSION: '22.X'
+  NODE_VERSION: '22.x'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
